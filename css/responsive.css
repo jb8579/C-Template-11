@@ -4,13 +4,6 @@
         padding: 10px 12px;
     }
 
-    button.grow_skew_forward {
-        position: relative;
-        left: 50%;
-        transform: translate(102px, -60px) !important;
-        top: 50%;
-    }
-
     .ribbon {
         top: -24px !important;
     }
