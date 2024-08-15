@@ -1,15 +1,19 @@
 @media only screen and (max-width: 370px) and (min-width: 300px){
-    button.grow_skew_forward {
-        font-size: 12px !important;
-        padding: 10px 12px;
+    .trust-content {
+        gap: 10px;
+    }
+
+    .trust-description > p {
+        font-size: 10px !important;
     }
 
     .ribbon {
         top: -24px !important;
     }
 
-    p.ratettl {
-        font-size: 11px !important;
+    .ribbon {
+        font-size: 12px !important;
+        padding: 0px;
     }
 
     .list-item .item-bonus p {
@@ -18,54 +22,29 @@
         position: relative !important;
     }
 
-    p.footer-copyright {
-        font-size: 12px !important;
-        letter-spacing: 0px;
-        margin-top: 20px;
-        line-height: 22px;
-    }
-
     .list-item .item-bonus p {
         top: -12px !important;
     }
 
-    .trust-content {
-        gap: 10px;
+    button.grow_skew_forward {
+        font-size: 12px !important;
+        padding: 10px 12px;
     }
 
     .getlink a {
         top: 0px !important;
     }
 
-    .half_circle {
-        height: 180px;
-        max-width: 180px;
-        top: -26px;
-        left: 2px;
-        width: 100%;
-    }
-
-    .trust-description > p {
-        font-size: 10px !important;
-    }
-
-    .ribbon {
+    p.footer-copyright {
         font-size: 12px !important;
-        padding: 0px;
+        letter-spacing: 0px;
+        margin-top: 20px;
+        line-height: 22px;
     }
 }
 
 
 @media (max-width: 599px){
-    p.bonus-p {
-        display: none;
-    }
-    .page-content > p {
-        line-height: 26px;
-        padding: 12px 0px;
-        margin: 0px;
-    }
-
     body {
         overflow-x: hidden;
         background-position: left 50% center;
@@ -73,18 +52,6 @@
 
     div#page {
         overflow-x: hidden;
-    }
-
-    #navbar p {
-        font-size: 11px;
-        line-height: 20px;
-        padding: 10px 4px;
-        letter-spacing: 0px;
-    }
-
-    #navbar > img {
-        width: 264px !important;
-        height: auto;
     }
 
     h1.mt-5.home-h1 {
@@ -99,11 +66,45 @@
         margin-top: -18px;
     }
 
-    .s-img-sm {
+    .header-content > p {
+        display: none;
+    }
+
+    .trust-content {
+        padding-bottom: 20px;
+        margin-top: -14px;
+    }
+    .trust-description {
         display: flex;
-        position: relative;
-        top: 20px;
-        left: 4px;
+        align-items: center;
+        gap: 4px;
+        text-align: center;
+    }
+
+    .trust-bar-date {
+        display: none;
+    }
+
+    .trust-icon > img {
+        width: 20px;
+        height: auto;
+    }
+
+    .trust-description > p {
+        font-size: 8px;
+        letter-spacing: 0px;
+        padding: 3px 0px;
+        text-align: center;
+    }
+
+    .trust-bar {
+        align-items: center;
+        justify-content: center;
+        padding: 10px 5px;
+    }
+
+    .trust-content-icon {
+        gap: 12px;
     }
 
     .item-logo::before {
@@ -142,54 +143,14 @@
         min-width: 130px;
     }
 
-    .trust-content {
-        padding-bottom: 20px;
-        margin-top: -14px;
-    }
-
-    .header-content > p {
+    p.bonus-p {
         display: none;
     }
 
-    .trust-content-icon {
-        gap: 12px;
-    }
-
-    img.star-d-none{
-        display: none;
-    }
-
-    .trust-description {
-        display: flex;
-        align-items: center;
-        gap: 4px;
-        text-align: center;
-    }
-
-    .trust-bar-date {
-        display: none;
-    }
-
-    .trust-icon > img {
-        width: 20px;
-        height: auto;
-    }
-
-    .trust-description > p {
-        font-size: 8px;
-        letter-spacing: 0px;
-        padding: 3px 0px;
-        text-align: center;
-    }
-
-    .trust-bar {
-        align-items: center;
-        justify-content: center;
-        padding: 10px 5px;
-    }
-
-    .half_circle_2 {
-        display: none;
+    .page-content > p {
+        line-height: 26px;
+        padding: 12px 0px;
+        margin: 0px;
     }
 
     img.logo {
@@ -280,14 +241,11 @@
     }
 
     .ribbon {
-        --c: #e79d26;
         position: absolute;
         top: -26px;
         left: -4px;
         z-index: 11;
         line-height: 28px;
-        border-radius: var(--r) 0 0 var(--r);
-        background-repeat: no-repeat;
     }
 
     .list-item .item-bonus p {
@@ -296,15 +254,7 @@
         line-height: 24px;
         position: relative;
         top: -16px;
-    }
-
-    .btn.btn-primary {
-        max-width: 165px;
-        font-size: 14px !important;
-        width: 100%;
-        padding: 8px 10px !important;
-        background-color: #189f20;
-        border-color: #189f20;
+        padding: 0px;
     }
 
     .getlink a {
@@ -315,10 +265,6 @@
 
     .d-flex.align-items-center.justify-content-around.d-md-block.py-2.py-md-0 {
         margin-top: -4px;
-    }
-
-    .s-img-sm > img.img-4 {
-        filter: grayscale(1);
     }
 
     .ribbon {
@@ -500,7 +446,8 @@
         line-height: 40px;
         letter-spacing: 0px;
         padding-bottom: 0px;
-        margin-top: -18px;
+        margin-top: -2px;
+        margin-bottom: 15px;
     }
 
     .s-img-sm {
