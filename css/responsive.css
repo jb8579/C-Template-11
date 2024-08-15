@@ -313,7 +313,7 @@
     }
 
     .getlink a {
-        top: -26px;
+        top: -4px;
         left: 35px;
         font-size: 11px;
     }
@@ -383,13 +383,6 @@
 
     .score-nm {
         gap: 6px;
-    }
-
-    button.grow_skew_forward {
-        position: relative;
-        left: 50%;
-        transform: translate(110px, -60px);
-        top: 50%;
     }
 
     .list-content {
@@ -551,6 +544,8 @@
         position: relative;
         top: -22px;
         min-width: 170px;
+        transform: translateX(-100px);
+        left: 50%;
     }
 
     .trust-content {
@@ -712,30 +707,15 @@
         top: -40px;
     }
 
-    .btn.btn-primary {
-        max-width: 165px;
-        font-size: 14px !important;
-        width: 100%;
-        padding: 8px 10px !important;
-        background-color: #189f20;
-        border-color: #189f20;
-    }
-
-    button.grow_skew_forward {
-        position: relative;
-        left: 50%;
-        transform: translate(110px, -68px);
-        top: 50%;
-    }
 
     .getlink a {
-        top: -26px;
+        top: -10px;
         left: 35px;
         font-size: 11px;
     }
 
     .d-flex.align-items-center.justify-content-around.d-md-block.py-2.py-md-0 {
-        margin-top: -4px;
+        margin-top: -12px;
         left: 50%;
         position: relative;
         transform: translateX(-95px);
@@ -1105,12 +1085,10 @@
 
 
 @media only screen and (max-width: 1100px) and (min-width: 869px){
-    .item-logo::before {
-        margin-left: 190px;
-    }
+   
     .list-item .item-bonus p {
-        font-size: 12px;
-        font-weight: 500;
+        font-size: 15px;
+        line-height: 27px;
     }
 
     #navbar {
@@ -1130,7 +1108,7 @@
     }
 
     .list-item .item-bonus p {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 700;
         line-height: 22px;
     }
@@ -1141,8 +1119,10 @@
 
     button {
         font-size: 14px !important;
-        padding: 1em 0.8em;
-        min-width: fit-content;
+        padding: 1em 1.2em;
+        position: relative;
+        left: 50%;
+        transform: translateX(-98px);
     }
 
     .getlink a {
@@ -1154,12 +1134,7 @@
     }
 
     .item-bonus::before {
-        margin-left: 120px;
-    }
-
-    img.logo {
-        width: 180px;
-        left: -6px;
+        margin-left: 150px;
     }
 
     .half_circle {
