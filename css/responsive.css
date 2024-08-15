@@ -2,13 +2,17 @@
     button.grow_skew_forward {
         font-size: 12px !important;
         padding: 10px 12px;
+    }
+
+    button.grow_skew_forward {
         position: relative;
-        left: 12px;
-        top: -14px;
+        left: 50%;
+        transform: translate(102px, -60px) !important;
+        top: 50%;
     }
 
     .ribbon {
-        top: -27px !important;
+        top: -24px !important;
     }
 
     p.ratettl {
@@ -17,9 +21,8 @@
 
     .list-item .item-bonus p {
         font-size: 12px !important;
-        line-height: 21px !important;
+        line-height: 18px !important;
         position: relative !important;
-        top: -12px !important;
     }
 
     p.footer-copyright {
@@ -27,6 +30,10 @@
         letter-spacing: 0px;
         margin-top: 20px;
         line-height: 22px;
+    }
+
+    .list-item .item-bonus p {
+        top: -12px !important;
     }
 
     .trust-content {
@@ -51,11 +58,19 @@
 
     .ribbon {
         font-size: 12px !important;
+        padding: 0px;
     }
 }
 
 
 @media (max-width: 599px){
+
+    .page-content > p {
+        line-height: 26px;
+        padding: 12px 0px;
+        margin: 0px;
+    }
+
     body {
         overflow-x: hidden;
         background-position: left 50% center;
@@ -96,6 +111,11 @@
         left: 4px;
     }
 
+    .item-logo::before {
+        margin-left: 160px;
+        height: 180px;
+    }
+
     .item-sco-1::before {
         display: none;
     }
@@ -117,13 +137,14 @@
     }
 
     button {
-        font-size: 13px !important;
+        font-size: 12px !important;
         border: 0px;
-        padding: 0.85em 1.3em;
+        padding: 0.85em 1em;
         z-index: 1;
         overflow: hidden;
         position: relative;
         top: -22px;
+        min-width: 130px;
     }
 
     .trust-content {
@@ -260,8 +281,7 @@
 
     .list-item .item-rat p, .list-item .item-play p {
         font-size: 12px;
-        color: #fff;
-        margin-top: 12px;
+        margin-top: -10px;
     }
 
     .ribbon {
@@ -276,9 +296,9 @@
     }
 
     .list-item .item-bonus p {
-        font-size: 14px;
+        font-size: 12px;
         letter-spacing: 0px;
-        line-height: 23px;
+        line-height: 18px;
         position: relative;
         top: -16px;
     }
@@ -307,7 +327,10 @@
     }
 
     .ribbon {
-        width: 130px;
+        width: 150px;
+        left: 3px;
+        top: -24px;
+        border-top-left-radius: 12px !important;
     }
 
     .py-2.py-md-0.list-button {
@@ -344,10 +367,53 @@
         margin-top: 20px;
     }
 
+    .score-nm-1 {
+        font-size: 34px;
+        margin: -8px 0px !important;
+    }
+
+    .score-nm {
+        position: relative;
+        top: -35px;
+    }
+
+    .score-nm > a > img {
+        width: 24px;
+    }
+
+    .score-nm {
+        gap: 6px;
+    }
+
+    button.grow_skew_forward {
+        position: relative;
+        left: 50%;
+        transform: translate(110px, -60px);
+        top: 50%;
+    }
+
+    .list-content {
+        padding: 20px 15px 0px 15px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .list-content > h2 {
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 0px;
+    }
+
+    .list-content > p {
+        font-size: 14px;
+        padding: 10px 0px;
+        line-height: 27px;
+        letter-spacing: 0px;
+    }
+
     .list-content > ul > li {
         font-size: 14px;
-        padding: 8px 0px;
-        line-height: 26px;
+        padding: 10px 0px;
+        line-height: 25px;
         letter-spacing: 0px;
     }
 
@@ -385,8 +451,12 @@
         overflow: hidden;
     }
 
+    .header.header-d {
+        padding: 0px;
+    }
+
     .footer-cp-bg {
-        padding: 50px 10px 40px 10px;
+        padding: 15px 0px;
         margin-top: 0px;
     }
 
@@ -399,6 +469,18 @@
         font-size: 25px;
         font-weight: 500;
         line-height: 35px;
+    }
+
+    .item-rat.col-6.col-sm-3.text-center {
+        position: relative;
+        top: -4px;
+        z-index: 99;
+    }
+
+    .about-content {
+        display: flex;
+        gap: 60px;
+        flex-direction: column-reverse;
     }
 }
 
@@ -468,6 +550,7 @@
         overflow: hidden;
         position: relative;
         top: -22px;
+        min-width: 170px;
     }
 
     .trust-content {
@@ -517,7 +600,7 @@
     }
 
     img.logo {
-        max-width: 155px;
+        max-width: 165px;
         height: auto;
     }
 
@@ -605,27 +688,28 @@
 
     .list-item .item-rat p, .list-item .item-play p {
         font-size: 12px;
-        color: #fff;
-        margin-top: 12px;
+        margin-top: -8px;
     }
 
     .ribbon {
-        --c: #e79d26;
         position: absolute;
-        top: -26px;
-        left: -4px;
+        top: -24px;
+        left: 3px;
         z-index: 11;
         line-height: 28px;
-        border-radius: var(--r) 0 0 var(--r);
-        background-repeat: no-repeat;
     }
 
     .list-item .item-bonus p {
-        font-size: 14px;
+        font-size: 12px;
         letter-spacing: 0px;
-        line-height: 23px;
+        line-height: 20px;
         position: relative;
         top: -16px;
+    }
+
+    .score-nm {
+        position: relative;
+        top: -40px;
     }
 
     .btn.btn-primary {
@@ -637,6 +721,13 @@
         border-color: #189f20;
     }
 
+    button.grow_skew_forward {
+        position: relative;
+        left: 50%;
+        transform: translate(110px, -68px);
+        top: 50%;
+    }
+
     .getlink a {
         top: -26px;
         left: 35px;
@@ -645,6 +736,9 @@
 
     .d-flex.align-items-center.justify-content-around.d-md-block.py-2.py-md-0 {
         margin-top: -4px;
+        left: 50%;
+        position: relative;
+        transform: translateX(-95px);
     }
 
     .s-img-sm > img.img-4 {
@@ -652,19 +746,28 @@
     }
 
     .ribbon {
-        width: 130px;
+        width: 150px;
+    }
+
+    .item-logo::before {
+        margin-left: 165px;
+        height: 180px;
     }
 
     .py-2.py-md-0.list-button {
         text-align: justify;
     }
 
+    .ribbon {
+        height: 28px;
+        padding: 0px 0px;
+    }
+
     .list-content {
-        padding: 40px 15px 20px 15px;
+        padding: 20px 15px 0px 15px;
         margin-bottom: 50px;
         margin-top: 30px;
     }
-
     .list-content > h2 {
         font-size: 28px;
         line-height: 38px;
@@ -681,7 +784,7 @@
     .list-content > ul > li {
         font-size: 14px;
         padding: 10px 0px;
-        line-height: 15px;
+        line-height: 24px;
         letter-spacing: 0px;
     }
 
@@ -1002,6 +1105,9 @@
 
 
 @media only screen and (max-width: 1100px) and (min-width: 869px){
+    .item-logo::before {
+        margin-left: 190px;
+    }
     .list-item .item-bonus p {
         font-size: 12px;
         font-weight: 500;
@@ -1048,7 +1154,7 @@
     }
 
     .item-bonus::before {
-        margin-left: 95px;
+        margin-left: 120px;
     }
 
     img.logo {
