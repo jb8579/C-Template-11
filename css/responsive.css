@@ -658,9 +658,9 @@
 
     .d-flex.align-items-center.justify-content-around.d-md-block.py-2.py-md-0 {
         margin-top: -12px;
-        left: 50%;
+        right: 50%;
         position: relative;
-        transform: translateX(-95px);
+        transform: translateX(80px);
     }
 
     .s-img-sm > img.img-4 {
