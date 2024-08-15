@@ -486,10 +486,10 @@
         position: relative;
         top: -22px;
         min-width: 170px;
-        transform: translateX(-100px);
         left: 50%;
+        transform: translateX(-94px);
     }
-
+    
     .trust-content {
         padding-bottom: 20px;
         margin-top: -14px;
@@ -806,8 +806,10 @@
     }
 
     .list-item .item-bonus p {
-        font-size: 12px;
+        font-size: 16px;
         letter-spacing: 0px;
+        line-height: 28px;
+        padding: 0px;
     }
 
     .list-item {
@@ -835,7 +837,12 @@
     }
 
     .text-center.text-title-left {
-        margin-left: 18px;
+        margin-left: 0px;
+    }
+
+    .py-2.py-md-0.list-button {
+        position: relative;
+        left: -55px;
     }
 
     p.ratettl.mb-0 {
@@ -856,15 +863,16 @@
 
     .list-item .brand-logo img {
         height: 70px;
-        max-width: 150px;
+        max-width: fit-content;
         position: relative;
         top: -4px;
         left: -10px;
     }
 
     .ribbon {
-        width: 120px;
-        height: 38px;
+        width: 155px;
+        height: 28px;
+        padding: 2px;
     }
 
     .half_circle {
@@ -890,10 +898,17 @@
 
     .item-rat::before {
         margin-left: 70px;
+        height: 130px;
     }
 
     .item-bonus::before {
-        margin-left: 85px;
+        margin-left: 120px;
+        height: 130px;
+    }
+
+    .item-logo::before {
+        height: 130px;
+        margin-left: 165px;
     }
 
     .score-nm {
@@ -975,9 +990,11 @@
     }
 
     button {
-        font-size: 13px !important;
-        padding: 0.85em 0.6em;
+        font-size: 11px !important;
+        padding: 0.85em 0.8em;
         left: 64px;
+        min-width: 130px;
+        width: 100%;
     }
 }
 
